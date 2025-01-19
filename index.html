@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Rejeer </span><br> Cheriyandi</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, pariatur unde ad corrupti
+                        nam omnis eos nemo error facilis? Tenetur pariatur nostrum nihil praesentium est voluptatum
+                        atque commodi perspiciatis earum.
+                        Aliquid expedita repudiandae iure ipsum, illum maxime doloremque mollitia distinctio tempora
+                        quidem laboriosam ullam adipisci placeat? Ea, repudiandae quod? Reiciendis, provident
+                        accusantium. Non obcaecati architecto voluptatem perferendis animi officiis dicta.
+                        Ratione optio nam delectus ratione rerum tempora. Officiis repudiandae voluptates quam, sequi
+                        aperiam illo, deleniti consectetur cum sint neque, impedit suscipit? Id tenetur sint architecto
+                        perspiciatis odio?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opnetab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opnetab('experience')">Projects</p>
+                        <p class="tab-links" onclick="opnetab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python Full Stack Development</span><br>Dynamic frontends, and APIs for web
+                                applications</li>
+                            <li><span>web Development</span><br>Web app Development</li>
+                            <li><span>Frontend Design & Deployment</span><br>Creating visually appealing and responsive
+                                interfaces.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Blogpost Platform</span><br>A dynamic blogging platform where users can create,
+                                edit, and delete posts, as well as comment on others' blogs</li>
+                            <li><span> Movie Ticket Booking System</span><br>An online platform for booking movie
+                                tickets, showing real-time seat availability and allowing secure payments</li>
+                            <li><span> Event Management System</span><br>A platform for managing and promoting events,
+                                allowing users to register and participate..</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 </span><br> Python Full Stack Development Course–CodeMeHub Institute, Calicut
+                            </li>
+                            <li><span>2017</span><br>Higher Secondary Education – College Of Commerce , Kannur</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------------services------------------->
+    <div id="services">
+        <div class="div container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure harum commodi expedita ad
+                        consectetur, laborum ea, assumenda nisi voluptates cupiditate accusamus eum consequuntur maiores
+                        qui vel perferendis? Optio, iusto.
+                        Voluptates, voluptatem placeat quidem ducimus recusandae sapiente? Cupiditate, quis veniam at
+                        deleniti ipsam et minima quas nemo. Ut quasi consequuntur unde, nihil assumenda error labore
+                        quod cupiditate numquam debitis. Odio.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure harum commodi expedita ad
+                        consectetur, laborum ea, assumenda nisi voluptates cupiditate accusamus eum consequuntur maiores
+                        qui vel perferendis? Optio, iusto.
+                        Voluptates, voluptatem placeat quidem ducimus recusandae sapiente? Cupiditate, quis veniam at
+                        deleniti ipsam et minima quas nemo. Ut quasi consequuntur unde, nihil assumenda error labore
+                        quod cupiditate numquam debitis. Odio.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-tools"></i>
+                    <h2>Servic</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure harum commodi expedita ad
+                        consectetur, laborum ea, assumenda nisi voluptates cupiditate accusamus eum consequuntur maiores
+                        qui vel perferendis? Optio, iusto.
+                        Voluptates, voluptatem placeat quidem ducimus recusandae sapiente? Cupiditate, quis veniam at
+                        deleniti ipsam et minima quas nemo. Ut quasi consequuntur unde, nihil assumenda error labore
+                        quod cupiditate numquam debitis. Odio.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------portfolio---------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/project1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Event Management System</h3>
+                        <p>A streamlined platform for planning and managing events with ease.</p>
+                        <a href=""><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/project2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Movie Ticket Booking</h3>
+                        <p>An intuitive system for booking movie tickets online effortlessly.</p>
+                        <a href=""><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/project3.jpg" alt="">
+                    <div class="layer">
+                        <h3> Blog Platform</h3>
+                        <p>A user-friendly platform for creating, sharing, and discovering blogs.</p>
+                        <a href=""><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------contact-->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subt-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope"></i>rejeerc@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>9567880110</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="images/REJEER C (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Rejeer Cheriyandi. Crafted with <i class="fas fa-heart" style="color: red;"></i>
+                and dedication. All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opnetab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+</body>
+
+</html>
