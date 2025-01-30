@@ -32,6 +32,7 @@
     width: 140px;
 
  }
+
  nav ul li{
     display: inline-block;
     list-style: none;
@@ -394,5 +395,17 @@ nav .fas{
 
     
  }
+ @media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Adjust the logo size for mobile screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 80px; /* Further reduce the size for smaller screens */
+    }
+}
+
 
  
